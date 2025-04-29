@@ -1,0 +1,76 @@
+#mainhead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    
+}
+html{
+    background-color: aliceblue;
+}
+body{
+    width: 1300px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgba(129, 255, 255, 0.562);
+    height:900px;
+}
+#calc{
+    width: 140px;
+    height: 50px;
+    margin-left: 35px;
+    font-size: 30px;
+    
+}
+
+#outAr{
+    font-size: 30px;
+    
+}
+
+#outPara{
+    font-size: 30px;
+    margin-left: 45px;
+    
+}
+
+#b1sp{
+    font-size: 30px;
+    margin-left: 50px;
+    
+}
+#b2sp{
+    font-size: 30px;
+    margin-left: 50px;
+    
+}
+#heisp{
+    font-size: 30px;
+    margin-left: 50px;
+    
+}
+
+.checkClass{
+    height: 40px;
+    width: 40px;
+    margin-left: 60px;
+    
+    
+}
+
+input{
+    height: 20px;
+    font-size: 20px;
+}
+
+.calcBtnClick{
+    border: 2px solid green;
+}
+
+#drop{
+    font-size: 20px;
+}
+
+#fsize{
+    font-size: 25px;
+}

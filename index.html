@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of Trapezium</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="mainhead">Area of Trapezium</h1>
+
+    <label id="fsize">Select a Unit</label>
+
+    <select id="drop">
+      <option value="ft">feet</option>
+      <option value="cm">centimeters</option>
+      <option value="m">meters</option>
+      <option value="in">inches</option>
+    </select>
+    <br /><br />
+
+    <span id="b1sp"
+      >Length of base 1 (b1):<input type="number" id="base1" /><br /><br
+    /></span>
+    <span id="b2sp"
+      >Length of base 2 (b2):<input type="number" id="base2" /><br /><br
+    /></span>
+    <span id="heisp"
+      >Height of Trapezium (h):<input type="number" id="hei" /><br /><br
+    /></span>
+
+    <button id="calc">Calculate</button>
+
+    <p id="outPara">
+      The area of the trapezium is <span id="outAr">________</span>
+    </p>
+    <img id="check" />
+  </body>
+</html>
